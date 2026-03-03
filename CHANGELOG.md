@@ -1,4 +1,4 @@
-# Changelog — Esperanza Sans
+# Changelog — LEDS_Text
 
 Todos los cambios relevantes del proyecto se documentan en este archivo.
 
