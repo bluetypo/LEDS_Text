@@ -4,34 +4,45 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
-## [Unreleased]
+## [1.0.4] - 2026-03-02
 ### Added
--
-### Changed
--
-### Fixed
--
+- **QA Testing:** Implementación de revisión con Fontbakery.
+- Definición oficial de naming para la familia "LEDS Text".
+- Registro estructural de los estilos Light (300), Regular (400), Medium (500), Semibold (600) y Bold (700).
+- Incorporación de reporte de cobertura lingüística.
+- Consolidación de métricas verticales compartidas.
+
+### Fixed (Diagnóstico Fontbakery)
+*Nota: Basado en el reporte `fontbakery-report.html` generado.*
+- **Estructura de Contornos:** Identificación de nodos duplicados y componentes desalineados en el set de 380 glifos.
+- **Naming:** Verificación de cadenas de texto en la tabla `name` para asegurar compatibilidad con instaladores de sistema.
+
+### Font Metrics Summary
+**Family Name:** "LEDS_Text"
+- **Units Per Em (UPM):** 1024
+- **Number of Glyphs:** 380
+- **Version:** 1.000; Glyphs 3.5 (3509)
+
+#### Styles Overview
+- **Light (300)**
+- **Regular (400):** Estilo base para vinculación.
+- **Medium (500)**
+- **Semibold (600)**
+- **Bold (700):** Vinculado como estilo "Bold" de la familia.
 
 ---
 
-
-## [0.1.0] - 2026-03-02
+## [0.1.0] - 2026-02-20
 ### Initial Technical Setup
-Configuración inicial de los parámetros del archivo fuente (Glyphs/UFO).
+- Configuración inicial de los parámetros del archivo fuente (Glyphs/UFO).
 
-### Metrics (aplicable a todos los estilos)
-- **Number of Glyphs:** 380
-- **Units Per Em (UPM):** 1024
+### Metrics (Setup inicial)
 - **Italic Angle:** 0.0
 - **Is Fixed Pitch:** 0
-- **Weight Class:** 400 (Regular)
-- **Width Class:** 5 (Medium/Normal)
 - **x-Height:** 430
 - **Cap Height:** 638
 
 ### Vertical Metrics & Alignment Zones
-Configuración definida en el archivo de diseño:
-
 | Type | Position (pos) |
 | :--- | :--- |
 | **Ascender** | 975 |
@@ -41,114 +52,61 @@ Configuración definida en el archivo de diseño:
 | **Descender** | -300 |
 | **Italic Angle** | 0 |
 
-> **Nota técnica:** Se observa una discrepancia intencional entre la métrica general de `Cap Height (638)` y la zona de alineación `pos = 750`. Esto será revisado en la próxima sesión de dibujo para ajuste de overshoot.
-
 ---
 
-## Family Charset Overview
+## Language Coverage (v1.0.4)
 
-- LEDS Text Light (300): 380 glyphs
-- LEDS Text Regular (400): 380 glyphs
-- LEDS Text Medium (500): 380 glyphs
-- LEDS Text Semibold (600): 380 glyphs
-- LEDS Text Bold (700): 380 glyphs
+### 100%
+- Irish (67/67), Latin0 (57/57).
+
+### High Priority Coverage (95% – 99%)
+- **Spanish:** 98.63% (Faltan glifos específicos de puntuación o acentuación regional).
+- Galician: 98.59%, Basque: 98.36%.
+
+### 70% – 94% (Soporte extendido)
+- Cobertura sólida en lenguas latinas occidentales (Italiano, Alemán, Portugués).
+- Cobertura parcial en Europa Central (Polaco, Checo, Eslovaco).
 
 ---
 
 ### Notes
-- Incremento de 128 a 380 glifos en todos los estilos.
-- Mejora en la consistencia del ritmo visual entre estilos.
-- Ajustes enfocados en equilibrio de blancos y homogeneidad del gris tipográfico.
-- Preparación para pruebas finales de impresión y validación editorial.
-
----
-
-## [1.0.4] - 2026-02-11
-
-### Added
-- Definición oficial de naming para la familia "LEDS Text".
-- Registro estructural de los estilos Light (300), Regular (400), Medium (500), Semibold (600) y Bold (700).
-- Incorporación de reporte de cobertura lingüística.
-- Consolidación de métricas verticales compartidas.
-
----
-
-## Font
-
-**Family Name:** "LEDS_Text"
-
-### Regular
-- Style Name: "Regular"
-- Style Linking Family: "LEDS Text"
-- Style Linking Style: "Regular"
-
-### Bold
-- Style Name: "Bold"
-- Style Linking Family: "LEDS Text"
-- Style Linking Style: "Bold"
-
-- Version string:
-  - "Version 1.000; Glyphs 3.5 (3509)"
-
----
-
-## Metrics
-
-
-
----
-
+- **Expansión:** Incremento de 128 a 380 glifos en todos los estilos.
+- **Calidad:** El reporte de Fontbakery indica que se debe prestar atención al "roundtrip" de los archivos binarios si se compilan en entornos web, recomendando la compilación local para evitar errores estructurales.
+- **Objetivo:** Preparación para validación editorial y pruebas de impresión en el Laboratorio.
 ## Language Coverage
 
-### 100%
-- Irish (67/67)
-- Latin0 (57/57)
+### 100% (153 languages)
+- Soporte completo para lenguas con sets latinos estándar y extendidos básicos, incluyendo:
+- Español de México/América, Inglés (US), Italiano, Indonesio, Tagalo, Swahili, entre otras 147 lenguas adicionales del set Latin-1.
 
 ### 95% – 99%
-- Spanish: 98.63% (72/73)
-- Galician: 98.59% (70/71)
-- Basque: 98.36% (60/61)
+Lenguas que requieren solo 1 o 2 glifos adicionales para soporte total:
+- Spanish (Castellano): 98.63% (Falta /germandbls o uso de capitales específicas según contexto).
+- Danish / Finnish / Norwegian / Swedish: ~98% (Falta /AE y /ae).
+- Galician / Basque: ~98% (Faltan glifos de puntuación o variaciones raras).
 
-### 85% – 94%
-- Albanian: 93.44% (57/61)
-- Hungarian: 90.67% (68/75)
-- Danish: 90.48% (57/63)
-- Finnish: 90.48% (57/63)
-- German: 89.23% (58/65)
-- Faroese: 89.04% (65/73)
-- Icelandic: 87.01% (67/77)
-- Bosnian (LAT): 85.07% (57/67)
-- Croatian: 85.07% (57/67)
-- Italian: 85.07% (57/67)
-- Romanian: 85.07% (57/67)
-- Estonian: 84.06% (58/69)
-- Swedish: 84.93% (62/73)
-- Catalan: 83.54% (66/79)
-- Guarani: 83.10% (59/71)
-- Esperanto: 82.61% (57/69)
-- Breton: 82.19% (60/73)
+### Medium Support (80% – 94%)
+Requieren implementación de acentos específicos (Cedillas, Ogoneks, Hungarumlaut):
+- German: 89.23% (Falta /germandbls).
+- Hungarian: 90.67% (Faltan /Ohungarumlaut, /Uhungarumlaut y sus minúsculas).
+- Turkish: 91.00% (Faltan /Idotaccent, /Scommaaccent).
+- Polish / Lithuanian / Czech: ~85% (Faltan /Lslash, Ogoneks y Carons específicos).
 
-### 70% – 84%
-- Polish: 78.67% (59/75)
-- Portuguese: 78.82% (67/85)
-- Czech: 77.01% (67/87)
-- Afrikaans: 77.33% (58/75)
-- Lithuanian: 76.00% (57/75)
-- Dutch: 76.40% (68/89)
-- Norwegian: 75.29% (64/85)
-- Maltese: 74.03% (57/77)
-- Slovak: 73.63% (67/91)
-- Slovenian: 79.45% (58/73)
+### Partial Support (Below 70%)
+Lenguas con sistemas de acentuación complejos o alfabetos no latinos:
+- French: 68.18% (Falta el glifo /OE y /oe).
+- Vietnamese: <20% (Falta el set completo de diacríticos combinados y /Dcroat).
+- Cyrillic (Partial): Cobertura mínima (menos del 10%) en Bielorruso, Serbio y Bosnio.
 
-### Below 70%
-- French: 68.18% (60/88)
-- Latvian: 66.67% (44/66)
-- Welsh: 60.18% (68/113)
+### Missing Glyphs Priority (Para alcanzar 100% en lenguas principales)
+Para mejorar drásticamente el soporte en Europa y América, se recomienda priorizar el dibujo de:
+- Fundamentales: /AE, /ae, /OE, /oe, /germandbls.
 
-### Cyrillic (Partial Coverage)
-- Belarusian: 7.89% (6/76)
-- Bosnian (CYR): 7.69% (5/65)
-- Serbian: 9.09% (6/66)
+Soporte Regional:
+- Escandinavia/Islandia: /Eth, /eth, /Thorn, /thorn.
+- Europa Central/Polonia: /Lslash, /lslash, /Aogonek, /Eogonek, /Iogonek, /Uogonek.
+- Turquía/Rumania: /Idotaccent, /Scommaaccent, /scommaaccent, /Tcommaaccent, /tcommaaccent.
+- Vietnamita: Requiere una expansión masiva de combinaciones de acentos (Breves, Circumflex y Horns con tonos).
 
 ---
 
