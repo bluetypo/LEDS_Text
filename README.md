@@ -9,7 +9,8 @@ El LEDS es un espacio de experimentación y análisis que articula el diseño co
 
 ## Estructura de la Familia
 La fuente se desarrolla en dos ejes principales:
-- **Upright:** Regular y Bold.
+- **Upright:** Light, Regular, Medium, Semibold y Bold.
+- **Italic:** Versiones itálicas correspondientes.
 
 
 ## Estado del Proyecto
