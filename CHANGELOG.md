@@ -54,25 +54,6 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
-## Language Coverage (v1.0.4)
-
-### 100%
-- Irish (67/67), Latin0 (57/57).
-
-### High Priority Coverage (95% – 99%)
-- **Spanish:** 98.63% (Faltan glifos específicos de puntuación o acentuación regional).
-- Galician: 98.59%, Basque: 98.36%.
-
-### 70% – 94% (Soporte extendido)
-- Cobertura sólida en lenguas latinas occidentales (Italiano, Alemán, Portugués).
-- Cobertura parcial en Europa Central (Polaco, Checo, Eslovaco).
-
----
-
-### Notes
-- **Expansión:** Incremento de 128 a 380 glifos en todos los estilos.
-- **Calidad:** El reporte de Fontbakery indica que se debe prestar atención al "roundtrip" de los archivos binarios si se compilan en entornos web, recomendando la compilación local para evitar errores estructurales.
-- **Objetivo:** Preparación para validación editorial y pruebas de impresión en el Laboratorio.
 ## Language Coverage
 
 ### 100% (153 languages)
