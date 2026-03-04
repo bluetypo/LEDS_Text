@@ -46,14 +46,10 @@ RTK TVI RWL RYN
 TABULA VATER WASSER
 YAKUZA FABEL PAPST
 UNE H",
-"/D.sc",
-"/d.sc",
-"/f_l",
 "Mexicanos, al grito de guerra, El acero aprestad y el bridón Y retiemble en sus centros la tierra Al sonoro rugir del cañón. Ciña ¡oh Patria! tus sienes de oliva de la paz el arcángel divino, que en el cielo tu eterno destino por el dedo de Dios se escribió.
 
 UNIVERSIDAD AUTÓNOMA
-DE SAN LUIS POTOSÍ",
-"/N.sc"
+DE SAN LUIS POTOSÍ"
 );
 axes = (
 {
@@ -373,7 +369,7 @@ X_sc
 );
 }
 );
-date = "2026-03-02 14:03:54 +0000";
+date = "2026-03-04 15:35:19 +0000";
 familyName = LEDS_Text;
 featurePrefixes = (
 {
@@ -785,6 +781,7 @@ pos = 500;
 pos = -300;
 },
 {
+pos = 11;
 }
 );
 name = "Ligth Italic";
@@ -931,6 +928,7 @@ pos = 500;
 pos = -300;
 },
 {
+pos = 11;
 }
 );
 name = "Regular Italic";
@@ -1075,6 +1073,7 @@ pos = 500;
 pos = -300;
 },
 {
+pos = 11;
 }
 );
 name = "Medium Italic";
@@ -1221,6 +1220,7 @@ pos = 500;
 pos = -300;
 },
 {
+pos = 11;
 }
 );
 name = "Semibold Italic";
@@ -1367,6 +1367,7 @@ pos = 500;
 pos = -300;
 },
 {
+pos = 11;
 }
 );
 name = "Bold Italic";
@@ -194741,6 +194742,7 @@ m006 = 1;
 isItalic = 1;
 linkStyle = Light;
 name = "Ligth italic";
+weightClass = 300;
 },
 {
 axesValues = (
@@ -194786,6 +194788,7 @@ m008 = 1;
 isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
+weightClass = 500;
 },
 {
 axesValues = (
@@ -194809,6 +194812,7 @@ m009 = 1;
 isItalic = 1;
 linkStyle = Semibold;
 name = "Semibold Italic";
+weightClass = 600;
 },
 {
 axesValues = (
@@ -194834,6 +194838,7 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Bold;
 name = "Bold Italic";
+weightClass = 700;
 }
 );
 kerningLTR = {
@@ -195436,7 +195441,7 @@ key = descriptions;
 values = (
 {
 language = ENG;
-value = "The first parametric typeface";
+value = "Parametric typeface";
 },
 {
 language = ESP;
@@ -195564,5 +195569,5 @@ Symbol = {
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
