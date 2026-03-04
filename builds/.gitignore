@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editor / backups
+*.bak
+*.tmp
+*.autosave
+*~
+
+# Builds temporales
+builds/otf/proof/_temp/
+builds/specimens/_temp/
+
+# Glyphs (si aplica)
+*.glyphs~
+*.glyphspackage.zip
+
+# UFO / designspace (si aplica)
+*.ufozip
+*.designspace.lock
+
+# Logs
+*.log

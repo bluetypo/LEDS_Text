@@ -1,0 +1,59 @@
+Copyright (c) 2026, Laboratorio de Estructuras Sociales - UASLP (https://leds.uaslp.mx)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+Versión: 1.0
+Fecha: 2026-03-02
+
+1. DEFINICIONES
+“Tipografía” se refiere al software de fuente y archivos asociados denominados “LEDS_Text”
+(incluyendo, sin limitarse a, OTF/TTF/WOFF/WOFF2, fuentes de edición, curvas, datos de kerning,
+features OpenType, documentación y specimens).
+“Titular” se refiere a los autores/representantes del proyecto, según se indique por escrito.
+“Licenciatario Exclusivo” se refiere a la organización/colectivo autorizado por el Titular.
+
+2. CONCESIÓN DE LICENCIA
+El Titular concede al Licenciatario Exclusivo una licencia:
+a) exclusiva,
+b) no transferible,
+c) no sublicenciable,
+d) revocable ante incumplimiento,
+para usar la Tipografía únicamente en los fines autorizados por escrito.
+
+3. ALCANCE DE USO AUTORIZADO
+Salvo acuerdo escrito distinto, el uso autorizado incluye:
+- uso en materiales gráficos y digitales del Licenciatario Exclusivo (impresos, redes, web, video),
+- instalación en los equipos del equipo de trabajo del Licenciatario Exclusivo.
+Queda prohibido cualquier uso por terceros no autorizados.
+
+4. RESTRICCIONES
+Se prohíbe expresamente:
+- redistribuir, vender, compartir, publicar o poner a disposición la Tipografía (o parte de ella),
+- modificar y distribuir versiones derivadas,
+- extraer curvas/contornos para crear fuentes o sistemas tipográficos derivados,
+- subir los archivos a repositorios públicos, bancos de recursos o servicios de descarga,
+- utilizar la Tipografía como base para productos tipográficos comerciales o no comerciales,
+salvo autorización escrita del Titular.
+
+5. PROPIEDAD INTELECTUAL
+La Tipografía es propiedad del Titular. La presente licencia no implica cesión de derechos.
+Toda titularidad, derechos morales (cuando aplique) y patrimoniales permanecen en el Titular.
+
+6. CONFIDENCIALIDAD
+La Tipografía y sus archivos fuente se consideran información confidencial mientras no exista
+autorización escrita para su divulgación.
+
+7. GARANTÍAS Y LIMITACIÓN DE RESPONSABILIDAD
+La Tipografía se entrega “tal cual”. El Titular no garantiza compatibilidad universal.
+En ningún caso el Titular será responsable por daños indirectos o consecuenciales.
+
+8. TERMINACIÓN
+El incumplimiento de cualquier cláusula permite la terminación inmediata de la licencia.
+Tras la terminación, el Licenciatario Exclusivo debe cesar el uso y eliminar copias instaladas.
+
+9. LEY APLICABLE Y JURISDICCIÓN
+Este acuerdo se rige por las leyes aplicables en México, salvo pacto escrito distinto.
+
+10. ACEPTACIÓN
+El uso o instalación de la Tipografía implica la aceptación de estos términos.
