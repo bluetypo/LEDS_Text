@@ -1,6 +1,9 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+y
+);
 customParameters = (
 {
 name = vendorID;
@@ -21368,7 +21371,7 @@ unicode = 120;
 },
 {
 glyphname = y;
-lastChange = "2026-03-04 00:58:38 +0000";
+lastChange = "2026-03-04 13:31:45 +0000";
 layers = (
 {
 anchors = (
