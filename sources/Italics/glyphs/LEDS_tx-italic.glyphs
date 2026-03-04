@@ -1,6 +1,52 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+"THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+the quick brown fox jumps over the lazy dog
+Spacing
+nanbncndnenfngnhninjnknlnmnnonpnqnrnsntnunvnwnxnynzn
+HAHBHCHDHEHFHGHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH
+0102030405060708090
+lower case//lower case
+aufkauf aufhalt aufbleib
+verixt auflassen 
+hoe auffassen
+le aufit raufjagen fıne
+aufnden Tiefieger
+Stolos Muon Stoigel Ozier
+Raband Tuhöhle Sukopp 
+führen fördern fähre
+wegjagen Bargfeld
+kyrie afro arte axe luvwärts
+Gevatter wann 
+ever gewettet severe
+davon gewonnen down
+wichtig recken
+ndnďlďhďoďnď*ď”
+nlnľlľhľoľnľ*ľ”dh
+fîî tíì lïïë thĩĩ nsa
+Versal//Kleinbuchstaben
+Farbe Fest Firn Fjord Font
+Frau Fu Fähre Förde Füe
+Rest Rohr Röhre Rymer
+Test Tod Tauf Tim Tja Turm
+Traum Tsara Twist Tyrol
+Tüte Töten Täter TéTêTèVeste Vogel VéVêVèVater Vijf Vlut Vulkan
+Vytautas Vroni Väter Vögel Vs Ws Vz Wz
+Weste Wolf Wüste Wörpe Wärter Waage Wiege Wlasta
+Wurst Wyhl Wrasen
+Yeats Yoni auf Yqem
+Yak Ybbs Yggdrasil Yps
+Ysop Ytong Yuma
+Versal//Verisal
+ATK AVI AWL AYN LTK
+LVI LWL LYN ĽV ĽTH
+RTK TVI RWL RYN
+TABULA VATER WASSER
+YAKUZA FABEL PAPST
+UNE H"
+);
 axes = (
 {
 name = Italic;
@@ -35651,279 +35697,6 @@ width = 379;
 );
 note = i_cap_dot_accent;
 unicode = 304;
-},
-{
-glyphname = dotlessi;
-lastChange = "2026-03-04 14:02:54 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(180,38,l),
-(246,409,l),
-(196,409,l),
-(130,38,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(130,38,l),
-(130,34,o),
-(109,33,o),
-(79,33,cs),
-(63,33,l),
-(63,33,o),
-(62,26,o),
-(60,16,cs),
-(58,7,o),
-(57,0,o),
-(57,0,c),
-(150,0,l),
-(242,0,l),
-(242,0,o),
-(243,7,o),
-(245,16,cs),
-(247,26,o),
-(248,33,o),
-(248,33,c),
-(232,33,ls),
-(201,33,o),
-(180,34,o),
-(180,38,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(246,409,l),
-(262,500,l),
-(253,500,l),
-(134,442,l),
-(131,425,l),
-(189,428,o),
-(199,426,o),
-(196,409,c)
-);
-}
-);
-width = 272;
-},
-{
-layerId = "138274BD-2AF4-44A3-9B34-6F786694E642";
-shapes = (
-{
-closed = 1;
-nodes = (
-(218,38,l),
-(283,409,l),
-(183,409,l),
-(118,38,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(118,38,l),
-(117,34,o),
-(97,33,o),
-(66,33,cs),
-(50,33,l),
-(51,33,o),
-(50,26,o),
-(48,16,cs),
-(46,7,o),
-(45,0,o),
-(45,0,c),
-(162,0,l),
-(280,0,l),
-(280,0,o),
-(281,7,o),
-(283,16,cs),
-(285,26,o),
-(286,33,o),
-(286,33,c),
-(270,33,ls),
-(238,33,o),
-(217,34,o),
-(218,38,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(283,409,l),
-(299,500,l),
-(282,500,l),
-(122,442,l),
-(119,425,l),
-(176,428,o),
-(186,426,o),
-(183,409,c)
-);
-}
-);
-width = 309;
-},
-{
-layerId = "0E723D17-59BC-4C5E-BFCA-41CEB45896D2";
-shapes = (
-{
-closed = 1;
-nodes = (
-(155,0,l),
-(257,0,l),
-(257,0,o),
-(258,7,o),
-(260,16,cs),
-(262,26,o),
-(263,33,o),
-(263,33,c),
-(247,33,ls),
-(216,33,o),
-(195,34,o),
-(195,38,c),
-(261,409,l),
-(277,500,l),
-(264,500,l),
-(129,442,l),
-(126,425,l),
-(184,428,o),
-(194,426,o),
-(191,409,cs),
-(125,38,l),
-(125,34,o),
-(104,33,o),
-(74,33,cs),
-(58,33,l),
-(58,33,o),
-(57,26,o),
-(55,16,cs),
-(53,7,o),
-(52,0,o),
-(52,0,c)
-);
-}
-);
-width = 287;
-},
-{
-layerId = "14257FDA-2614-4218-93F6-F0A118F23CCC";
-shapes = (
-{
-closed = 1;
-nodes = (
-(207,38,l),
-(273,409,l),
-(187,409,l),
-(121,38,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(121,38,l),
-(121,34,o),
-(100,33,o),
-(70,33,cs),
-(54,33,l),
-(54,33,o),
-(53,26,o),
-(51,16,cs),
-(49,7,o),
-(48,0,o),
-(48,0,c),
-(159,0,l),
-(269,0,l),
-(269,0,o),
-(270,7,o),
-(272,16,cs),
-(274,26,o),
-(275,33,o),
-(275,33,c),
-(259,33,ls),
-(227,33,o),
-(206,34,o),
-(207,38,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(273,409,l),
-(289,500,l),
-(273,500,l),
-(125,442,l),
-(122,425,l),
-(180,428,o),
-(190,426,o),
-(187,409,c)
-);
-}
-);
-width = 299;
-},
-{
-layerId = "BBA8B076-D1F2-4268-BE72-89D7CC5EB943";
-shapes = (
-{
-closed = 1;
-nodes = (
-(229,38,l),
-(294,409,l),
-(179,409,l),
-(114,38,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(114,38,l),
-(113,34,o),
-(93,33,o),
-(63,33,cs),
-(47,33,l),
-(47,33,o),
-(46,26,o),
-(44,16,cs),
-(42,7,o),
-(41,0,o),
-(41,0,c),
-(166,0,l),
-(291,0,l),
-(291,0,o),
-(292,7,o),
-(294,16,cs),
-(296,26,o),
-(297,33,o),
-(297,33,c),
-(281,33,ls),
-(249,33,o),
-(228,34,o),
-(229,38,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(294,409,l),
-(310,500,l),
-(290,500,l),
-(118,442,l),
-(115,425,l),
-(172,428,o),
-(182,426,o),
-(179,409,c)
-);
-}
-);
-width = 321;
-}
-);
-note = dotlessi;
 },
 {
 glyphname = j_cap_circumflex;
