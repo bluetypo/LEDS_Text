@@ -1,0 +1,43 @@
+# Acuerdo de Licencia de Usuario Final (EULA) - LEDS_Text
+**Versión 1.1 — 2026**
+
+Este Acuerdo de Licencia de Usuario Final ("Acuerdo") constituye un contrato legal entre usted (“Licenciatario”) y el **Laboratorio de Estructuras Sociales (LEDS)** de la Universidad Autónoma de San Luis Potosí (UASLP), en relación con el uso de la familia tipográfica **LEDS_Text**.
+
+Al descargar, instalar o utilizar el software tipográfico, usted acepta los términos y condiciones siguientes.
+
+---
+
+## 1. Objeto del Acuerdo
+El LEDS otorga al Licenciatario una **licencia no exclusiva, intransferible y limitada** para usar la fuente tipográfica según los términos aquí descritos. La propiedad intelectual y los derechos de autor pertenecen exclusivamente al Laboratorio de Estructuras Sociales (UASLP).
+
+## 2. Derechos de Uso
+1. **Instalación:** Se permite la instalación en dispositivos propiedad del Licenciatario para fines de investigación, académicos o de difusión institucional.
+2. **Uso Académico y Social:** Dado el carácter del Laboratorio, se incentiva su uso en proyectos que promuevan el impacto social y la divulgación del conocimiento, siempre respetando la integridad del diseño.
+3. **Proveedores Externos:** Se puede entregar la fuente a impresores o diseñadores externos únicamente para realizar trabajos en nombre del Licenciatario. El proveedor deberá eliminar las copias al finalizar el trabajo.
+
+## 3. Restricciones
+- **Modificación:** No está permitido modificar, adaptar, descompilar o redistribuir los archivos fuente (`.otf`) sin autorización expresa del LEDS.
+- **Venta:** Queda estrictamente prohibida la venta, alquiler o sublicenciamiento de los archivos tipográficos a terceros.
+- **Uso Comercial Externo:** Para usos comerciales fuera del ámbito de la UASLP o proyectos vinculados al LEDS, se deberá consultar la autorización específica.
+
+## 4. Incrustación y Medios Digitales
+- Se permite la incrustación en documentos PDF y sitios web (vía `@font-face`) siempre que los archivos estén protegidos contra la extracción por parte de terceros.
+- Se permite su uso en aplicaciones de video y presentaciones digitales.
+
+## 5. Garantía y Responsabilidad
+- El software se entrega "tal cual" (*as is*). El LEDS se compromete a corregir errores técnicos reportados en futuras actualizaciones (vía Changelog), pero no se hace responsable de daños derivados del uso o imposibilidad de uso del software.
+
+## 6. Terminación
+Esta licencia se mantiene vigente mientras se cumplan sus cláusulas. El LEDS se reserva el derecho de cancelar la licencia y exigir la eliminación de los archivos si el Licenciatario incumple cualquier punto de este Acuerdo.
+
+## 7. Ley Aplicable
+Este acuerdo se rige por las leyes vigentes en el Estado de **San Luis Potosí, México**, y las normativas internas de la Universidad Autónoma de San Luis Potosí.
+
+---
+
+**Contacto:**
+Laboratorio de Estructuras Sociales (LEDS)
+Facultad del Hábitat, UASLP.
+Sitio web: [https://leds.uaslp.mx](https://leds.uaslp.mx)
+
+© 2026 Laboratorio de Estructuras Sociales. Todos los derechos reservados.
