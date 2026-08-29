@@ -42,13 +42,13 @@ Para que el atajo de negrita (**B** / **Cmd+B**) funcione correctamente en softw
 
 ## 4. PostScript Name (ID 6) y Naming de Archivos
 
-El nombre PostScript es fundamental para la generación de PDFs y la compatibilidad con RIPs de impresión. No debe superar los 29 caracteres, no contiene espacios y coincide con los nombres de archivo compilados:
+El nombre PostScript es fundamental para la generación de PDFs y la compatibilidad con RIPs de impresión. No debe superar los 29 caracteres, no contiene espacios y coincide con los nombres de archivo compilados en formatos Desktop (`.otf`) y Web (`.woff`):
 
-* **Light:** `LEDSTextLight` $\rightarrow$ `LEDSTextLight.otf`
-* **Regular:** `LEDSTextRegular` $\rightarrow$ `LEDSTextRegular.otf`
-* **Medium:** `LEDSTextMedium` $\rightarrow$ `LEDSTextMedium.otf`
-* **Semibold:** `LEDSTextSemibold` $\rightarrow$ `LEDSTextSemibold.otf`
-* **Bold:** `LEDSTextBold` $\rightarrow$ `LEDSTextBold.otf`
+* **Light:** `LEDSTextLight` $\rightarrow$ `LEDSTextLight.otf` / `LEDSTextLight.woff`
+* **Regular:** `LEDSTextRegular` $\rightarrow$ `LEDSTextRegular.otf` / `LEDSTextRegular.woff`
+* **Medium:** `LEDSTextMedium` $\rightarrow$ `LEDSTextMedium.otf` / `LEDSTextMedium.woff`
+* **Semibold:** `LEDSTextSemibold` $\rightarrow$ `LEDSTextSemibold.otf` / `LEDSTextSemibold.woff`
+* **Bold:** `LEDSTextBold` $\rightarrow$ `LEDSTextBold.otf` / `LEDSTextBold.woff`
 
 ---
 

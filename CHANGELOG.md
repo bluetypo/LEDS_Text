@@ -5,6 +5,15 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 ---
 
 ## [1.2.0] - 2026-08-29
+### Added
+- **Compilación de Fuentes Web (WOFF):** Generación e incorporación de archivos en formato `.woff` para los 5 pesos en `builds/woff/proof/`:
+  - `LEDSTextLight.woff`
+  - `LEDSTextRegular.woff`
+  - `LEDSTextMedium.woff`
+  - `LEDSTextSemibold.woff`
+  - `LEDSTextBold.woff`
+- **Paquete de Release Unificado:** Distribución oficial consolidada con formatos OTF y WOFF en `builds/release/LEDS_Text_v1.20.zip`.
+
 ### Changed / Optimized
 - **Optimización de Trazos y Nodos:** Limpieza de nodos duplicados y segmentos superpuestos de longitud cero en todas las capas de los glifos.
 - **Recompilación OTF:** Generación y actualización de los binarios OTF (`builds/otf/proof/`) para los 5 pesos de la familia:
