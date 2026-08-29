@@ -1,102 +1,68 @@
-# Nomenclatura — LEDS_Text
+# Nomenclatura — LEDS Text
 
-Este documento define las convenciones oficiales de naming para la familia tipográfica del **Laboratorio de Estructuras Sociales**.
-
-Su objetivo es garantizar coherencia entre:
-- Metadata interna (Font Info / Tabla `name`)
-- Archivos exportados (.otf, .woff2)
-- Compatibilidad en sistemas operativos (Windows / macOS)
-- Estructura del repositorio y comunicación del LEDS.
+Este documento define la estructura de metadatos y las convenciones de nomenclatura de la tabla `name` (especificación OpenType) para la familia tipográfica del **Laboratorio de Estructuras Sociales (LEDS)**, garantizando compatibilidad multiplataforma (macOS, Windows, Linux) y agrupamiento correcto en menús de aplicaciones.
 
 ---
 
-## 1. Family Name
+## 1. Agrupamiento de Familia (Family Naming)
 
-**Family Name oficial:** `LEDS Text` (para visualización en menús)  
-`LEDS_Text` (para nombres de archivo y PostScript)
+Para evitar problemas de fragmentación en los menús y asegurar que los 10 estilos aparezcan agrupados bajo una misma familia:
 
-Este nombre debe mantenerse idéntico en todos los estilos para asegurar el agrupamiento correcto.
-
----
-
-## 2. Style Names & Metrics
-
-| Estilo      | Style Name | Weight Class | Width Class |
-|-------------|------------|--------------|-------------|
-| **Light** | Light      | 300          | 5 (Medium)  |
-| **Regular** | Regular    | 400          | 5 (Medium)  |
-| **Medium** | Medium     | 500          | 5 (Medium)  |
-| **Semibold** | Semibold   | 600          | 5 (Medium)  |
-| **Bold** | Bold       | 700          | 5 (Medium)  |
+* **Family Name (ID 16 - Typographic Family Name):** `LEDS Text`
+  - Nombre completo que agrupa a todos los estilos en menús extendidos.
+* **Subfamily Name (ID 17 - Typographic Subfamily Name):** `Light` | `Light Italic` | `Regular` | `Regular Italic` | `Medium` | `Medium Italic` | `Semibold` | `Semibold Italic` | `Bold` | `Bold Italic`
+  - Identifica el peso e inclinación individual de la fuente en menús extendidos.
+* **Font Family Name (ID 1 - Family Name):** `LEDS Text`
+  - Utilizado para compatibilidad en aplicaciones básicas que solo admiten el modelo de cuatro estilos (Regular, Italic, Bold, Bold Italic).
 
 ---
 
-## 3. Style Linking (Vinculación de Estilos)
+## 2. Definición de Instancias (Styles & Weights)
 
-Para asegurar que el uso de las teclas rápidas (**B** / **I**) funcione correctamente en software de oficina y diseño:
+La consistencia en la codificación de pesos se define a través de los valores de la tabla `OS/2` (`usWeightClass` y `usWidthClass`):
 
-**Regular (Base):**
-- Style Linking Family: `LEDS Text`
-- Style Linking Style: `Regular`
-
-**Bold:**
-- Style Linking Family: `LEDS Text`
-- Style Linking Style: `Bold` (Vinculado al Regular)
-
-**Light / Medium / Semibold:**
-- Estos estilos no suelen llevar vinculación de estilo (Style Linking) para evitar conflictos en menús de aplicaciones básicas, a menos que se definan parejas específicas.
+| Estilo / Peso | Style Name (ID 2/17) | Weight Class (`usWeightClass`) | Width Class (`usWidthClass`) |
+| :--- | :--- | :---: | :---: |
+| **Light** | Light / Light Italic | 300 | 5 (Medium) |
+| **Regular** | Regular / Regular Italic | 400 | 5 (Medium) |
+| **Medium** | Medium / Medium Italic | 500 | 5 (Medium) |
+| **Semibold** | Semibold / Semibold Italic | 600 | 5 (Medium) |
+| **Bold** | Bold / Bold Italic | 700 | 5 (Medium) |
 
 ---
 
-## 4. Naming para exportación (Archivos)
+## 3. Vinculación de Estilos (Style Linking)
 
-Formato oficial sin espacios para evitar errores en servidores y código:
+Para que los atajos de negrita (**B** / **Cmd+B**) e itálica (**I** / **Cmd+I**) funcionen correctamente en software de oficina y diseño:
 
-- `LEDS_Text-Light.otf`
-- `LEDS_Text-Regular.otf`
-- `LEDS_Text-Medium.otf`
-- `LEDS_Text-Semibold.otf`
-- `LEDS_Text-Bold.otf`
-
-**Reglas:**
-- Sin versiones en el nombre del archivo (ej. NO usar `LEDS_Text_v1.otf`).
-- La versión se controla exclusivamente mediante el `CHANGELOG.md` y la metadata interna.
+* **Pares Base / Negrita / Itálica:**
+  - `Regular` + **B** $\rightarrow$ `Bold`
+  - `Regular` + **I** $\rightarrow$ `Regular Italic`
+  - `Regular` + **B** + **I** $\rightarrow$ `Bold Italic`
+* **Estilos adicionales (Light, Medium, Semibold):**
+  - Cada variante Upright se vincula a su correspondiente variante **Italic** mediante el atajo **I** / **Cmd+I**.
 
 ---
 
-## 5. Versionado
+## 4. PostScript Name (ID 6) y Naming de Archivos
 
-**Formato interno (Metadata):** `Version 1.000; Glyphs 3.5 (3509)`
+El nombre PostScript es fundamental para la generación de PDFs y la compatibilidad con RIPs de impresión. No debe superar los 29 caracteres, no contiene espacios y coincide con los nombres de archivo compilados:
 
-**Convención de versión en Repositorio (Git Tags):** - `v1.0.4` (Versión actual de producción)
-- `v1.1.0` (Siguiente hito de glifos)
-
----
-
-## 6. PostScript Name (PS Name)
-
-El nombre PostScript es crítico para la impresión y generación de PDF. No debe exceder los 29 caracteres y no debe contener espacios:
-
-- `LEDSText-Light`
-- `LEDSText-Regular`
-- `LEDSText-Medium`
-- `LEDSText-Semibold`
-- `LEDSText-Bold`
+* **Light:** `LEDSText-Ligth` $\rightarrow$ `LEDSText-Ligth.otf` / `LEDSText-Ligthitalic` $\rightarrow$ `LEDSText-Ligthitalic.otf`
+* **Regular:** `LEDSText-Regular` $\rightarrow$ `LEDSText-Regular.otf` / `LEDSText-Regularitalic` $\rightarrow$ `LEDSText-Regularitalic.otf`
+* **Medium:** `LEDSText-Medium` $\rightarrow$ `LEDSText-Medium.otf` / `LEDSText-MediumItalic` $\rightarrow$ `LEDSText-MediumItalic.otf`
+* **Semibold:** `LEDSText-Semibold` $\rightarrow$ `LEDSText-Semibold.otf` / `LEDSText-SemiboldItalic` $\rightarrow$ `LEDSText-SemiboldItalic.otf`
+* **Bold:** `LEDSText-Bold` $\rightarrow$ `LEDSText-Bold.otf` / `LEDSText-BoldItalic` $\rightarrow$ `LEDSText-BoldItalic.otf`
 
 ---
 
-## 7. Futuras extensiones (Italics)
+## 5. Parámetros de Versión (ID 5)
 
-Cuando se incorporen las itálicas (actualmente en `sources/italic/`), se seguirá este patrón:
-
-- **Style Name:** `Italic` / `Bold Italic`
-- **PostScript:** `LEDSText-Italic` / `LEDSText-BoldItalic`
-- **Style Linking:** El estilo `Italic` se vinculará al `Regular`, y el `Bold Italic` al `Bold`.
+* **Metadata de Versión (ID 5):** `Version 1.100; Glyphs 3.x`
+* **Git Tags:** `v1.1.0`
 
 ---
 
-## 8. Coherencia Institucional
+## 6. Coherencia Institucional
 
-En publicaciones del Laboratorio, la fuente debe referirse siempre como **LEDS Text**.
-
-Cualquier variante experimental o histórica (como los archivos en `sources/Bold_export/`) debe mantenerse fuera de las carpetas de `builds/` para evitar confusiones en la implementación final del laboratorio.
+En publicaciones oficiales del Laboratorio, la fuente debe referirse siempre como **LEDS Text**.

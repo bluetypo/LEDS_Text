@@ -1,4 +1,4 @@
-# Changelog — LEDS_Text
+# Changelog — LEDS Text
 
 Todos los cambios relevantes del proyecto se documentan en este archivo.
 

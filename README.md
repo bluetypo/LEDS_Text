@@ -1,42 +1,53 @@
-# LEDS_Text
+# LEDS Text
 
-**LEDS_Text** es la familia tipográfica oficial del **Laboratorio de Estructuras Sociales (LEDS)**, perteneciente a la Facultad de Hábitat de la Universidad Autónoma de San Luis Potosí (UASLP).
+![LEDS Text Specimen](assets/LEDS_Text.png)
 
-Este proyecto dota al laboratorio de una identidad visual propia, diseñada para articular la investigación social con el diseño gráfico contemporáneo y la tecnología.
+**LEDS Text** es la familia tipográfica oficial del **Laboratorio de Estructuras Sociales (LEDS)**, perteneciente a la Facultad del Hábitat de la Universidad Autónoma de San Luis Potosí (UASLP).
 
-## Estructura de la Familia (v1.1.0)
-La familia se compone actualmente de **10 estilos**, optimizados para lectura en pantalla y materiales impresos de investigación:
+Este repositorio aloja los archivos fuente de diseño y las compilaciones de producción de la familia, estructurados bajo estándares profesionales de desarrollo tipográfico y control de versiones.
 
-| Peso | Upright | Italic | Weight Class |
-| :--- | :---: | :---: | :---: |
-| **Light** | ✓ | ✓ | 300 |
-| **Regular** | ✓ | ✓ | 400 |
-| **Medium** | ✓ | ✓ | 500 |
-| **Semibold** | ✓ | ✓ | 600 |
-| **Bold** | ✓ | ✓ | 700 |
+## Estructura de la Familia (10 Estilos - Release v1.1.0)
+La familia compilada en producción se compone de **5 pesos** con sus correspondientes variantes **Upright** (Romana) e **Italic** (Cursiva), sumando un total de **10 instancias estáticas** disponibles en formato **OTF** (Desktop):
 
-## Especificaciones Técnicas
-* **Formato:** OTF (OpenType Font)
-* **Unidades por Em (UPM):** 1024
-* **Glifos por fuente:** 380
-* **Soporte Lingüístico:** 100% de cobertura en 16 lenguas latinas (incluyendo Checo, Finlandés, Galés, Irlandés y Español).
+| Estilo / Instancia | Upright | Italic | Weight Class | Archivos (OTF) | PostScript Name |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| **Light** | ✓ | ✓ | 300 | `LEDSText-Ligth.otf`<br>`LEDSText-Ligthitalic.otf` | `LEDSText-Ligth`<br>`LEDSText-Ligthitalic` |
+| **Regular** | ✓ | ✓ | 400 | `LEDSText-Regular.otf`<br>`LEDSText-Regularitalic.otf` | `LEDSText-Regular`<br>`LEDSText-Regularitalic` |
+| **Medium** | ✓ | ✓ | 500 | `LEDSText-Medium.otf`<br>`LEDSText-MediumItalic.otf` | `LEDSText-Medium`<br>`LEDSText-MediumItalic` |
+| **SemiBold** | ✓ | ✓ | 600 | `LEDSText-Semibold.otf`<br>`LEDSText-SemiboldItalic.otf` | `LEDSText-Semibold`<br>`LEDSText-SemiboldItalic` |
+| **Bold** | ✓ | ✓ | 700 | `LEDSText-Bold.otf`<br>`LEDSText-BoldItalic.otf` | `LEDSText-Bold`<br>`LEDSText-BoldItalic` |
 
-## Estado del Proyecto
-Actualmente el proyecto se encuentra en **fase de consolidación**. Se han corregido errores críticos de metadatos WWS (Weight, Width, Slope) y se han alineado las métricas verticales para asegurar consistencia entre estilos.
+## Especificaciones Técnicas (Font Specs)
+* **Formatos de Distribución:**
+  * **Desktop / Print:** OpenType CFF (`.otf`) compilado con curvas PostScript (cúbicas).
+* **Ubicación de Compilación y Release:** [`builds/otf/release/`](builds/otf/release/) (paquetes `.zip`), [`builds/otf/proof/`](builds/otf/proof/) (`.otf`).
+* **Unidades por Em (UPM):** 1024.
+* **Set de Glifos por Archivo:** 380 glifos (cobertura Latin extendida con diacríticos, versalitas y ligaduras).
+* **OpenType Features (GSUB):** 
+  * `aalt` — *Access All Alternates*
+  * `case` — *Case-Sensitive Forms*
+  * `ccmp` — *Glyph Composition/Decomposition*
+  * `liga` — *Standard Ligatures*
+  * `locl` — *Localized Forms*
+* **Soporte Lingüístico:** Cobertura de 153 lenguas con base latina (100% de cobertura en 16 lenguas clave como Checo, Finlandés, Galés, Irlandés y Español).
 
-Las versiones de prueba y archivos de producción se encuentran en:
-`builds/otf/proof/`
+## Estado de Producción
+Las **10 instancias estáticas** en formato **OTF** listas para distribución se ubican en:
+* [`builds/otf/release/`](builds/otf/release/) — Paquetes oficiales de distribución (`LEDS_Text_v1.10.zip`), incluyendo documentación interna (`CHANGELOG.md` y `EULA_LEDS_Text.txt`).
+* [`builds/otf/proof/`](builds/otf/proof/) — Archivos binarios individuales `.otf`.
+
+Los archivos fuente máster en formato Glyphs (`sources/LEDS_Text 2.glyphs`, `sources/LEDS_Text.glyphs` y `sources/LEDS_tx-italic.glyphs`) se encuentran estructurados en [`sources/`](sources/) para facilitar el mantenimiento y la compilación de futuras versiones.
 
 ## Sobre el Laboratorio
-El LEDS es un espacio de experimentación y análisis que articula el diseño con las estructuras sociales.
-🌐 [Visita el sitio oficial del LEDS](https://leds.uaslp.mx)
+El Laboratorio de Estructuras Sociales (LEDS) es un espacio de investigación y análisis enfocado en articular el diseño gráfico contemporáneo con la tecnología y las estructuras sociales.
+🌐 [Visita el sitio oficial del Laboratorio de Estructuras Sociales](https://leds.uaslp.mx)
 
 ---
 
-## Instalación y Uso
-1. Descarga los archivos de la carpeta `builds/otf/`.
-2. Instala los estilos en tu sistema operativo.
-3. Para asegurar el funcionamiento correcto de las itálicas, se recomienda utilizar software que soporte *Style Linking*.
+## Pruebas de Rendering y QA
+1. Descarga las fuentes compiladas desde [`builds/otf/release/`](builds/otf/release/) o explora las versiones individuales en [`builds/otf/proof/`](builds/otf/proof/).
+2. **Fuentes Desktop (OTF):** Instala los archivos `.otf` en tu sistema operativo o gestor de fuentes y valida la vinculación de estilos (*Style Linking*) con los atajos de teclado (**B** / **N** para negritas y **I** / **K** para itálicas).
+3. **Pruebas de Calidad:** Las validaciones de metadatos y contornos se ejecutan mediante *Fontbakery* y se registran en [`tests/fontbakery/`](tests/fontbakery/).
 
-## Licencia
-Este proyecto se distribuye bajo la licencia especificada en el archivo `LICENSE.txt`.
+## Licencia y EULA
+Esta tipografía se distribuye bajo la licencia abierta **SIL Open Font License 1.1** detallada en el archivo [LICENSE.txt](LICENSE.txt). Puedes consultar los términos de uso y derechos de distribución en el [Acuerdo de Licencia de Usuario Final (EULA.md)](EULA.md).

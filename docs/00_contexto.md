@@ -1,30 +1,30 @@
-# Contexto del Proyecto: LEDS_Text
+# Contexto del Proyecto: LEDS Text
 
 ## 1. Origen y Propósito
-**LEDS_Text** es un proyecto de diseño tipográfico comisionado por el **Laboratorio de Estructuras Sociales (LEDS)** de la Universidad Autónoma de San Luis Potosí. El objetivo principal es dotar al laboratorio de una voz visual única y coherente que acompañe sus investigaciones, publicaciones y materiales de difusión.
+**LEDS Text** es un proyecto de diseño tipográfico comisionado por el **Laboratorio de Estructuras Sociales (LEDS)** de la Facultad del Hábitat de la Universidad Autónoma de San Luis Potosí (UASLP). El objetivo principal de este proyecto es dotar al laboratorio de una voz visual propia, rigurosa y contemporánea, diseñada para articular la investigación social con el diseño gráfico y las publicaciones digitales e impresas.
 
-El proyecto surge de la necesidad de una tipografía que sea funcional en contextos académicos y editoriales, pero que al mismo tiempo posea un carácter distintivo que refleje la intersección entre el diseño, la tecnología y el análisis social.
+El proyecto surge de la necesidad de contar con un sistema de lectura óptimo para contextos académicos, informes de investigación y plataformas de análisis de datos sociales.
 
-## 2. Identidad Institucional
-La tipografía busca alinearse con los valores del LEDS:
-- **Experimentación:** Una estructura flexible y moderna.
-- **Análisis Social:** Claridad tipográfica para la lectura de datos e investigaciones complejas.
-- **Colaboración:** El desarrollo se apoya en procesos abiertos y documentados (GitHub).
+## 2. Identidad y Espacio de Diseño (Design Space)
+La tipografía refleja los valores estructurales del laboratorio mediante decisiones de diseño:
+- **Claridad Lectora:** Proporciones de lectura diseñadas para optimizar la legibilidad en bloques de texto denso e informes cualitativos/cuantitativos.
+- **Rigor Métrico:** Métricas verticales unificadas y aberturas equilibradas que garantizan rendimiento en pantalla e impresiones de alta definición.
+- **Sostenibilidad del Repositorio:** Gestión estructurada de archivos mediante control de versiones en GitHub para facilitar la iteración y el mantenimiento.
 
-## 3. Colaboraciones Especiales
-El desarrollo estructural y conceptual de esta familia tipográfica ha contado con la participación y supervisión de figuras clave en el diseño contemporáneo, como **Manuel Guerrero**, integrando una visión desde el diseño que otorga rigor técnico que el laboratorio demanda.
+## 3. Asesoría y Supervisión Técnica
+El desarrollo técnico y la estructuración tipográfica de esta familia han contado con la colaboración del equipo del laboratorio y la consultoría técnica de especialistas en diseño tipográfico como **Manuel Guerrero**, integrando rigor técnico en el dibujo de curvas, compatibilidad de contornos, métricas y vinculación de estilos (*Style Linking*).
 
 ## 4. El Laboratorio (LEDS)
-El Laboratorio de Estructuras Sociales es un espacio de la UASLP dedicado al estudio y visualización de fenómenos sociales.
-- **Sitio Web:** [https://leds.uaslp.mx](https://leds.uaslp.mx)
-- **Ubicación:** San Luis Potosí, S.L.P., México.
+El Laboratorio de Estructuras Sociales (LEDS - UASLP) es una entidad académica enfocada en el análisis, experimentación y visualización de fenómenos y estructuras sociales.
+🌐 [Visita el sitio oficial del Laboratorio de Estructuras Sociales](https://leds.uaslp.mx)
 
-## 5. Especificaciones de la Familia
-LEDS_Text se concibe como una familia multicanal, diseñada para rendir con excelencia tanto en medios impresos como en entornos digitales (web y aplicaciones de análisis de datos).
-
-Actualmente, el proyecto se encuentra en una fase de expansión de caracteres (charset), habiendo crecido de un set básico de 128 glifos a **380 glifos**, cubriendo más de 150 lenguas con base latina.
+## 5. Especificaciones del Set de Glifos (Charset)
+LEDS Text cuenta actualmente con un set de **380 glifos** por fuente en su versión v1.1.0. Esto garantiza:
+- Cobertura completa (100%) para 16 idiomas de base latina (incluyendo Checo, Finlandés, Galés, Irlandés y Español) y cobertura extendida para 153 idiomas.
+- Implementación de diacríticos y formas contextuales.
+- Funciones OpenType avanzadas (`aalt`, `case`, `ccmp`, `liga`, `locl`) que resuelven dinámicamente composiciones complejas de texto.
 
 ## 6. Objetivos del Repositorio
-Este repositorio en GitHub funciona como:
-1. **Control de Calidad:** Implementación de flujos de trabajo con herramientas como Fontbakery.
-2. **Colaboración:** Espacio para que diseñadores y desarrolladores del laboratorio puedan iterar sobre la fuente.
+Este espacio en GitHub gestiona el control de calidad mediante:
+1. **Validación de Métricas y QA:** Auditorías periódicas con herramientas de diagnóstico tipográfico (*Fontbakery*).
+2. **Distribución de Producción:** Publicación estructurada de instancias estáticas (OTF) y paquetes comprimidos de release listos para uso final.
