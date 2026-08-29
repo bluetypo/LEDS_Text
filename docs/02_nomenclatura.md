@@ -44,18 +44,18 @@ Para que el atajo de negrita (**B** / **Cmd+B**) funcione correctamente en softw
 
 El nombre PostScript es fundamental para la generación de PDFs y la compatibilidad con RIPs de impresión. No debe superar los 29 caracteres, no contiene espacios y coincide con los nombres de archivo compilados:
 
-* **Light:** `LEDSText-Ligth` $\rightarrow$ `LEDSText-Ligth.otf`
-* **Regular:** `LEDSText-Regular` $\rightarrow$ `LEDSText-Regular.otf`
-* **Medium:** `LEDSText-Medium` $\rightarrow$ `LEDSText-Medium.otf`
-* **Semibold:** `LEDSText-Semibold` $\rightarrow$ `LEDSText-Semibold.otf`
-* **Bold:** `LEDSText-Bold` $\rightarrow$ `LEDSText-Bold.otf`
+* **Light:** `LEDSTextLight` $\rightarrow$ `LEDSTextLight.otf`
+* **Regular:** `LEDSTextRegular` $\rightarrow$ `LEDSTextRegular.otf`
+* **Medium:** `LEDSTextMedium` $\rightarrow$ `LEDSTextMedium.otf`
+* **Semibold:** `LEDSTextSemibold` $\rightarrow$ `LEDSTextSemibold.otf`
+* **Bold:** `LEDSTextBold` $\rightarrow$ `LEDSTextBold.otf`
 
 ---
 
 ## 5. Parámetros de Versión (ID 5)
 
-* **Metadata de Versión (ID 5):** `Version 1.100; Glyphs 3.x`
-* **Git Tags:** `v1.1.0`
+* **Metadata de Versión (ID 5):** `Version 1.002; Glyphs 3.x`
+* **Git Tags:** `v1.2.0`
 
 ---
 

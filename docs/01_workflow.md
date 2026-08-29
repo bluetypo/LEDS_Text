@@ -15,11 +15,11 @@ Las 5 instancias estáticas definidas en el archivo fuente se compilan en format
   - Activar *Remove Overlaps* (Fusión de trazados superpuestos).
   - Activar *Autohinting* (Optimización de renderizado).
 * **Nombres de Archivo Oficiales (PostScript Names):**
-  - **Light:** `LEDSText-Ligth.otf` (`LEDSText-Ligth`)
-  - **Regular:** `LEDSText-Regular.otf` (`LEDSText-Regular`)
-  - **Medium:** `LEDSText-Medium.otf` (`LEDSText-Medium`)
-  - **SemiBold:** `LEDSText-Semibold.otf` (`LEDSText-Semibold`)
-  - **Bold:** `LEDSText-Bold.otf` (`LEDSText-Bold`)
+  - **Light:** `LEDSTextLight.otf` (`LEDSTextLight`)
+  - **Regular:** `LEDSTextRegular.otf` (`LEDSTextRegular`)
+  - **Medium:** `LEDSTextMedium.otf` (`LEDSTextMedium`)
+  - **SemiBold:** `LEDSTextSemibold.otf` (`LEDSTextSemibold`)
+  - **Bold:** `LEDSTextBold.otf` (`LEDSTextBold`)
 
 ## 3. Pruebas de QA y Diagnóstico (Fontbakery)
 Antes de empaquetar una release de producción:
@@ -29,7 +29,7 @@ Antes de empaquetar una release de producción:
 
 ## 4. Publicación y Distribución Oficial (Releases)
 Una vez que las instancias estáticas han superado las pruebas de calidad de métricas, rendering y Style Linking:
-1. Empaqueta los archivos OTF finales en un archivo comprimido `.zip` (`LEDS_Text_v1.10.zip`), incluyendo el archivo de documentación y EULA correspondiente.
+1. Empaqueta los archivos OTF finales en un archivo comprimido `.zip` (`LEDS_Text_v1.20.zip`), incluyendo el archivo de documentación y EULA correspondiente.
 2. Guarda el paquete oficial en: `builds/otf/release/`.
 3. Actualiza el historial en el archivo `CHANGELOG.md` de la raíz del proyecto.
-4. Genera la etiqueta correspondiente en Git (ej. `git tag -a v1.1.0`) y haz push a GitHub.
+4. Genera la etiqueta correspondiente en Git (ej. `git tag -a v1.2.0`) y haz push a GitHub.
