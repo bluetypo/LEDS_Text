@@ -59,40 +59,6 @@ tag = wght;
 );
 customParameters = (
 {
-name = vendorID;
-value = XXXX;
-},
-{
-name = panose;
-value = (
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-4,
-5,
-29,
-31,
-33,
-60
-);
-},
-{
 name = fsType;
 value = (
 );
@@ -363,10 +329,29 @@ F_sc,
 S_sc,
 X_sc
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+4,
+5,
+29,
+31,
+33,
+60
+);
 }
 );
 date = "2026-08-29 12:34:41 +0000";
-familyName = LEDS_text;
+familyName = "LEDS Text";
 featurePrefixes = (
 {
 automatic = 1;
@@ -102071,6 +102056,30 @@ instanceInterpolations = {
 "E059459B-5795-442B-8710-0018C46129BA" = 1;
 };
 name = Ligth;
+properties = (
+{
+key = postscriptFontName;
+value = LEDSTextLight;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "LEDSText Light";
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "LEDS Text";
+}
+);
+}
+);
 weightClass = 300;
 },
 {
@@ -102081,6 +102090,30 @@ instanceInterpolations = {
 "B523A5AF-871D-4AB2-9BF1-E01A824009A4" = 1;
 };
 name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = LEDSTextRegular;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "LEDSText Regular";
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "LEDS Text";
+}
+);
+}
+);
 },
 {
 axesValues = (
@@ -102090,6 +102123,30 @@ instanceInterpolations = {
 "261B483D-14CB-4AC5-AE3A-41E540C8643C" = 1;
 };
 name = Medium;
+properties = (
+{
+key = postscriptFontName;
+value = LEDSTextMedium;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "LEDSText Medium";
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "LEDS Text";
+}
+);
+}
+);
 weightClass = 500;
 },
 {
@@ -102100,6 +102157,30 @@ instanceInterpolations = {
 "D3C24151-4D63-4841-9665-5260E3226900" = 1;
 };
 name = Semibold;
+properties = (
+{
+key = postscriptFontName;
+value = LEDSTextSemibold;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "LEDSText Semibold";
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "LEDS Text";
+}
+);
+}
+);
 weightClass = 600;
 },
 {
@@ -102111,6 +102192,30 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
+properties = (
+{
+key = postscriptFontName;
+value = LEDSTextBold;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "LEDSText Bold";
+}
+);
+},
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "LEDS Text";
+}
+);
+}
+);
 weightClass = 700;
 }
 );
@@ -102419,24 +102524,11 @@ type = "italic angle";
 );
 properties = (
 {
-key = descriptions;
-values = (
-{
-language = ENG;
-value = "The first parametric typeface";
-},
-{
-language = ESP;
-value = "Laboratorio de Estructuras Sociales UASLP - FH";
-}
-);
-},
-{
 key = designers;
 values = (
 {
 language = ENG;
-value = " bluetypo";
+value = "LEM UASLP";
 }
 );
 },
@@ -102444,8 +102536,8 @@ value = " bluetypo";
 key = licenses;
 values = (
 {
-language = ENG;
-value = " GNU General Public License";
+language = dflt;
+value = EULA;
 }
 );
 },
@@ -102454,7 +102546,7 @@ key = manufacturers;
 values = (
 {
 language = ENG;
-value = " bluetypo";
+value = "LEM UASLP";
 }
 );
 },
@@ -102467,18 +102559,13 @@ key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = LEDS_Text;
+value = "LEDS Text";
 }
 );
 },
 {
-key = trademarks;
-values = (
-{
-language = ENG;
-value = " bluetypo";
-}
-);
+key = versionString;
+value = "Version %d.%03d";
 }
 );
 settings = {
