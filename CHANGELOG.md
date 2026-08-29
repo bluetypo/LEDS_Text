@@ -6,14 +6,13 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ## [1.1.0] - 2026-03-04
 ### Added
-- **Expansión de Familia:** Incorporación de 5 nuevos estilos Itálicos (Light, Regular, Medium, Semibold y Bold).
-- **Consolidación de Glifos:** Sincronización del set de 380 glifos en todos los estilos de la familia (10 fuentes en total).
-- **Soporte Lingüístico:** Validación del 100% de cobertura para 16 idiomas, incluyendo Checo, Finlandés, Galés e Irlandés en toda la familia.
+- **Consolidación de Familia (5 Pesos Upright):** Homologación y compilación de 5 estilos (Light, Regular, Medium, Semibold y Bold).
+- **Consolidación de Glifos:** Sincronización del set de 380 glifos en todos los estilos de la familia.
+- **Soporte Lingüístico:** Validación del 100% de cobertura para 16 idiomas, incluyendo Checo, Finlandés, Galés e Irlandés.
 
 ### Fixed (Diagnóstico Fontbakery)
-*Nota: Basado en el reporte de conflictos de pesos y metadatos de la nueva vertiente.*
-- **Estructura WWS (Weight, Width, Slope):** Corrección del error donde los estilos itálicos reportaban un peso erróneo de 400. Se asignaron los valores correctos (300, 500, 600, 700) en las tablas de metadatos.
-- **Atributos de Selección (fsSelection):** Reparación de los bits de estilo para asegurar que el sistema diferencie correctamente entre las variantes Romanas y Cursivas en los menús de software.
+- **Estructura WWS (Weight, Width, Slope):** Corrección y asignación precisa de los valores de peso (300, 400, 500, 600, 700) en las tablas de metadatos.
+- **Atributos de Selección (fsSelection):** Reparación de los bits de estilo en la tabla OS/2 para menús de software.
 - **Validación de Soft Dotted:** Revisión de glifos con puntos suaves (como la /j) para asegurar el comportamiento correcto de desaparición del punto al combinar con diacríticos superiores.
 
 ### Font Metrics Summary
@@ -23,11 +22,11 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 - **Version:** 1.100; Glyphs 3.5 (3509)
 
 #### Styles Overview
-- **Light (300) / Light Italic (300)**
-- **Regular (400) / Regular Italic (400):** Estilos base para vinculación.
-- **Medium (500) / Medium Italic (500)**
-- **Semibold (600) / Semibold Italic (600)**
-- **Bold (700) / Bold Italic (700):** Vinculados como estilos "Bold" de la familia.
+- **Light (300)**
+- **Regular (400):** Estilo base para vinculación.
+- **Medium (500)**
+- **Semibold (600)**
+- **Bold (700):** Vinculado como estilo "Bold" de la familia.
 
 ---
 

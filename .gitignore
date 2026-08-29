@@ -1,11 +1,27 @@
-# macOS
+# macOS / OSX System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.AppleDB
+
+# Windows
+Thumbs.db
+ehthumbs.db
 
 # Editor / backups
 *.bak
 *.tmp
 *.autosave
 *~
+*.swp
+*.swo
 
 # Builds temporales
 builds/otf/proof/_temp/
@@ -14,6 +30,7 @@ builds/specimens/_temp/
 # Glyphs (si aplica)
 *.glyphs~
 *.glyphspackage.zip
+*.glyphspreview
 
 # UFO / designspace (si aplica)
 *.ufozip
@@ -21,3 +38,9 @@ builds/specimens/_temp/
 
 # Logs
 *.log
+
+# Local design archives / backups
+archive/
+
+# Local internal guides
+workflow_interno.md

@@ -8,7 +8,7 @@
 
 ---
 
-## 🇪🇸 Versión en Español
+## Versión en Español
 
 ### 1. Resumen y Naturaleza de la Licencia
 El software tipográfico **LEDS Text** se distribuye bajo los términos de la **SIL Open Font License (OFL), Versión 1.1**. Este Acuerdo de Licencia de Usuario Final (EULA) resume y complementa de forma clara los derechos, responsabilidades y alcances de uso permitidos para usuarios individuales, instituciones, organizaciones y empresas.
@@ -37,7 +37,7 @@ EL SOFTWARE TIPOGRÁFICO SE PROPORCIONA "TAL CUAL" (*AS IS*), SIN GARANTÍA DE N
 
 ---
 
-## 🇬🇧 English Version
+## English Version
 
 ### 1. Overview & Licensing Framework
 The **LEDS Text** font software is released under the terms of the **SIL Open Font License (OFL), Version 1.1**. This End User License Agreement (EULA) provides a clear summary of permitted uses, rights, and obligations for individuals, academic institutions, design studios, and commercial enterprises.

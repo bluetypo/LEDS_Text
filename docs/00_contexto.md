@@ -16,7 +16,7 @@ El desarrollo técnico y la estructuración tipográfica de esta familia han con
 
 ## 4. El Laboratorio (LEDS)
 El Laboratorio de Estructuras Sociales (LEDS - UASLP) es una entidad académica enfocada en el análisis, experimentación y visualización de fenómenos y estructuras sociales.
-🌐 [Visita el sitio oficial del Laboratorio de Estructuras Sociales](https://leds.uaslp.mx)
+Sitio web oficial: [https://leds.uaslp.mx](https://leds.uaslp.mx)
 
 ## 5. Especificaciones del Set de Glifos (Charset)
 LEDS Text cuenta actualmente con un set de **380 glifos** por fuente en su versión v1.1.0. Esto garantiza:

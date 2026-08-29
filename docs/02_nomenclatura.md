@@ -6,14 +6,14 @@ Este documento define la estructura de metadatos y las convenciones de nomenclat
 
 ## 1. Agrupamiento de Familia (Family Naming)
 
-Para evitar problemas de fragmentación en los menús y asegurar que los 10 estilos aparezcan agrupados bajo una misma familia:
+Para asegurar que los estilos aparezcan correctamente agrupados bajo una misma familia:
 
 * **Family Name (ID 16 - Typographic Family Name):** `LEDS Text`
   - Nombre completo que agrupa a todos los estilos en menús extendidos.
-* **Subfamily Name (ID 17 - Typographic Subfamily Name):** `Light` | `Light Italic` | `Regular` | `Regular Italic` | `Medium` | `Medium Italic` | `Semibold` | `Semibold Italic` | `Bold` | `Bold Italic`
-  - Identifica el peso e inclinación individual de la fuente en menús extendidos.
+* **Subfamily Name (ID 17 - Typographic Subfamily Name):** `Light` | `Regular` | `Medium` | `Semibold` | `Bold`
+  - Identifica el peso individual de la fuente en menús extendidos.
 * **Font Family Name (ID 1 - Family Name):** `LEDS Text`
-  - Utilizado para compatibilidad en aplicaciones básicas que solo admiten el modelo de cuatro estilos (Regular, Italic, Bold, Bold Italic).
+  - Utilizado para compatibilidad en aplicaciones básicas.
 
 ---
 
@@ -23,24 +23,20 @@ La consistencia en la codificación de pesos se define a través de los valores 
 
 | Estilo / Peso | Style Name (ID 2/17) | Weight Class (`usWeightClass`) | Width Class (`usWidthClass`) |
 | :--- | :--- | :---: | :---: |
-| **Light** | Light / Light Italic | 300 | 5 (Medium) |
-| **Regular** | Regular / Regular Italic | 400 | 5 (Medium) |
-| **Medium** | Medium / Medium Italic | 500 | 5 (Medium) |
-| **Semibold** | Semibold / Semibold Italic | 600 | 5 (Medium) |
-| **Bold** | Bold / Bold Italic | 700 | 5 (Medium) |
+| **Light** | Light | 300 | 5 (Medium) |
+| **Regular** | Regular | 400 | 5 (Medium) |
+| **Medium** | Medium | 500 | 5 (Medium) |
+| **Semibold** | Semibold | 600 | 5 (Medium) |
+| **Bold** | Bold | 700 | 5 (Medium) |
 
 ---
 
 ## 3. Vinculación de Estilos (Style Linking)
 
-Para que los atajos de negrita (**B** / **Cmd+B**) e itálica (**I** / **Cmd+I**) funcionen correctamente en software de oficina y diseño:
+Para que el atajo de negrita (**B** / **Cmd+B**) funcione correctamente en software de oficina y diseño:
 
-* **Pares Base / Negrita / Itálica:**
+* **Par Base / Negrita:**
   - `Regular` + **B** $\rightarrow$ `Bold`
-  - `Regular` + **I** $\rightarrow$ `Regular Italic`
-  - `Regular` + **B** + **I** $\rightarrow$ `Bold Italic`
-* **Estilos adicionales (Light, Medium, Semibold):**
-  - Cada variante Upright se vincula a su correspondiente variante **Italic** mediante el atajo **I** / **Cmd+I**.
 
 ---
 
@@ -48,11 +44,11 @@ Para que los atajos de negrita (**B** / **Cmd+B**) e itálica (**I** / **Cmd+I**
 
 El nombre PostScript es fundamental para la generación de PDFs y la compatibilidad con RIPs de impresión. No debe superar los 29 caracteres, no contiene espacios y coincide con los nombres de archivo compilados:
 
-* **Light:** `LEDSText-Ligth` $\rightarrow$ `LEDSText-Ligth.otf` / `LEDSText-Ligthitalic` $\rightarrow$ `LEDSText-Ligthitalic.otf`
-* **Regular:** `LEDSText-Regular` $\rightarrow$ `LEDSText-Regular.otf` / `LEDSText-Regularitalic` $\rightarrow$ `LEDSText-Regularitalic.otf`
-* **Medium:** `LEDSText-Medium` $\rightarrow$ `LEDSText-Medium.otf` / `LEDSText-MediumItalic` $\rightarrow$ `LEDSText-MediumItalic.otf`
-* **Semibold:** `LEDSText-Semibold` $\rightarrow$ `LEDSText-Semibold.otf` / `LEDSText-SemiboldItalic` $\rightarrow$ `LEDSText-SemiboldItalic.otf`
-* **Bold:** `LEDSText-Bold` $\rightarrow$ `LEDSText-Bold.otf` / `LEDSText-BoldItalic` $\rightarrow$ `LEDSText-BoldItalic.otf`
+* **Light:** `LEDSText-Ligth` $\rightarrow$ `LEDSText-Ligth.otf`
+* **Regular:** `LEDSText-Regular` $\rightarrow$ `LEDSText-Regular.otf`
+* **Medium:** `LEDSText-Medium` $\rightarrow$ `LEDSText-Medium.otf`
+* **Semibold:** `LEDSText-Semibold` $\rightarrow$ `LEDSText-Semibold.otf`
+* **Bold:** `LEDSText-Bold` $\rightarrow$ `LEDSText-Bold.otf`
 
 ---
 
