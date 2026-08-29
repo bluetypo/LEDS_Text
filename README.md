@@ -6,16 +6,16 @@
 
 Este repositorio aloja el archivo fuente de diseño y las compilaciones de producción de la familia, estructurados bajo estándares profesionales de desarrollo tipográfico y control de versiones.
 
-## Estructura de la Familia (5 Estilos - Release v1.1.0)
+## Estructura de la Familia (5 Estilos - Release v1.2.0)
 La familia compilada en producción se compone de **5 pesos** en su variante **Upright** (Romana), disponibles en formato **OTF** (Desktop):
 
 | Estilo / Instancia | Weight Class | Archivo (OTF) | PostScript Name |
 | :--- | :---: | :--- | :--- |
-| **Light** | 300 | `LEDSText-Ligth.otf` | `LEDSText-Ligth` |
-| **Regular** | 400 | `LEDSText-Regular.otf` | `LEDSText-Regular` |
-| **Medium** | 500 | `LEDSText-Medium.otf` | `LEDSText-Medium` |
-| **SemiBold** | 600 | `LEDSText-Semibold.otf` | `LEDSText-Semibold` |
-| **Bold** | 700 | `LEDSText-Bold.otf` | `LEDSText-Bold` |
+| **Light** | 300 | `LEDSTextLight.otf` | `LEDSTextLight` |
+| **Regular** | 400 | `LEDSTextRegular.otf` | `LEDSTextRegular` |
+| **Medium** | 500 | `LEDSTextMedium.otf` | `LEDSTextMedium` |
+| **SemiBold** | 600 | `LEDSTextSemibold.otf` | `LEDSTextSemibold` |
+| **Bold** | 700 | `LEDSTextBold.otf` | `LEDSTextBold` |
 
 ## Especificaciones Técnicas (Font Specs)
 * **Formatos de Distribución:**
@@ -33,7 +33,7 @@ La familia compilada en producción se compone de **5 pesos** en su variante **U
 
 ## Estado de Producción
 Las **5 instancias estáticas** en formato **OTF** listas para distribución se ubican en:
-* [`builds/otf/release/`](builds/otf/release/) — Paquete oficial de distribución (`LEDS_Text_v1.10.zip`), incluyendo documentación interna (`CHANGELOG.md` y `EULA.md`).
+* [`builds/otf/release/`](builds/otf/release/) — Paquete oficial de distribución (`LEDS_Text_v1.20.zip`), incluyendo documentación interna (`CHANGELOG.md` y `EULA.md`).
 * [`builds/otf/proof/`](builds/otf/proof/) — Archivos binarios individuales `.otf`.
 
 El archivo fuente máster en formato Glyphs ([`sources/LEDS_Text.glyphs`](sources/LEDS_Text.glyphs)) se encuentra estructurado en [`sources/`](sources/) para facilitar el mantenimiento y la compilación de futuras versiones.
