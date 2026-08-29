@@ -4,6 +4,18 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
+## [1.2.0] - 2026-08-29
+### Changed / Optimized
+- **Optimización de Trazos y Nodos:** Limpieza de nodos duplicados y segmentos superpuestos de longitud cero en todas las capas de los glifos.
+- **Recompilación OTF:** Generación y actualización de los binarios OTF (`builds/otf/proof/`) para los 5 pesos de la familia:
+  - `LEDSTextLight.otf`
+  - `LEDSTextRegular.otf`
+  - `LEDSTextMedium.otf`
+  - `LEDSTextSemibold.otf`
+  - `LEDSTextBold.otf`
+
+---
+
 ## [1.1.0] - 2026-03-04
 ### Added
 - **Consolidación de Familia (5 Pesos Upright):** Homologación y compilación de 5 estilos (Light, Regular, Medium, Semibold y Bold).
