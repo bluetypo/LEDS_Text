@@ -4,17 +4,18 @@ Este archivo documenta la hoja de ruta (*roadmap*), lanzamientos de producción 
 
 ---
 
-## [v1.3.0] - 2026-08-29 (Actual)
+## [v1.3.0] - 2026-08-30 (Actual)
 **Estado:** Estable / Compilación de Producción  
 **Estilos:** 10 estilos (Light, Light Italic, Regular, Regular Italic, Medium, Medium Italic, Semibold, Semibold Italic, Bold, Bold Italic).  
-**Enfoque:** Incorporación completa de la vertiente itálica (5 cursivas) en formatos OTF y WOFF, configuración de transformaciones tipográficas (inclinación de 10° y sustitución de formas cursivas `/a`, `/f`, `/g`), vinculación de estilos (*Style Linking*) y actualización de metadatos de versión a 1.300.
+**Enfoque:** Incorporación completa de la vertiente itálica (5 cursivas) en formatos OTF y WOFF, configuración de transformaciones tipográficas (inclinación de 10° y sustitución de formas cursivas `/a`, `/f`, `/g`), vinculación de estilos (*Style Linking*), corrección de reglas y sintaxis de características OpenType en exportación, y actualización de metadatos de versión a 1.300.
 
 ### Hitos Técnicos:
 - Expansión de la familia de 5 a 10 estilos estáticos.
-- Compilación y exportación de 5 estilos itálicos en `builds/otf/proof/` y `builds/woff/proof/`.
+- Compilación y exportación corregida de los 10 estilos en `builds/otf/proof/` y `builds/woff/proof/`.
+- Depuración de código OpenType (sustitución de versalitas/Small Caps y reglas de ligaduras).
 - Configuración de filtros de transformación de inclinación (`Slant: 10°`) y variantes cursivas (`a.001`, `f.001`, `g.001`).
 - Vinculación completa de 4 estilos (*RIBBI*) y pares itálicos adicionales.
-- Sincronización general de binarios OTF y WOFF para toda la familia.
+- Regeneración del paquete consolidado de distribución `LEDS_Text_v1.30.zip` en `builds/release/`.
 
 ---
 

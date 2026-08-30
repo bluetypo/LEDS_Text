@@ -4,7 +4,7 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
-## [1.3.0] - 2026-08-29
+## [1.3.0] - 2026-08-30
 ### Added
 - **Expansión de la Familia con Estilos Itálicos (5 Cursivas):** Diseño, transformación y exportación de 5 estilos itálicos en formatos OTF (`builds/otf/proof/`) y WOFF (`builds/woff/proof/`):
   - `LEDSTextLightItalic.otf` / `LEDSTextLightItalic.woff`
@@ -21,6 +21,10 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
   - Configuración completa de la cuádrupla base: `Regular` $\rightarrow$ `Bold` (**B**), `Regular` $\rightarrow$ `Regular Italic` (**I**), `Regular` $\rightarrow$ `Bold Italic` (**B+I**).
   - Vinculación de pares itálicos para `Light` $\leftrightarrow$ `Light Italic`, `Medium` $\leftrightarrow$ `Medium Italic` y `Semibold` $\leftrightarrow$ `Semibold Italic`.
 - **Actualización de Versión de Metadatos:** Incremento a `v1.300` (`versionMajor = 1`, `versionMinor = 3`) en el archivo fuente de Glyphs.
+
+### Fixed / Corrected
+- **Corrección de Errores de Exportación:** Depuración de sintaxis y sustituciones de características OpenType (código de versalitas/Small Caps y reglas de ligaduras).
+- **Actualización de Release:** Recompilación limpia y regeneración del paquete de distribución `LEDS_Text_v1.30.zip` con los binarios de producción corregidos.
 
 ### Changed / Optimized
 - **Recompilación de la Familia Completa:** Generación sincronizada de los 10 estilos estáticos (5 Romanas + 5 Itálicas) en formatos OTF y WOFF.
