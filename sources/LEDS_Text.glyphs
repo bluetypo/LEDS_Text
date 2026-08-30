@@ -333,6 +333,7 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+disabled = 1;
 name = unicodeRanges;
 value = (
 0,
@@ -349,7 +350,7 @@ value = (
 }
 );
 date = "2026-08-30 01:41:46 +0000";
-familyName = "LEDS Text";
+familyName = LEDS;
 featurePrefixes = (
 {
 automatic = 1;
@@ -425,12 +426,12 @@ sub Gbreve by gbreve.sc;
 sub Gdotaccent by gdotaccent.sc;
 sub H by H.sc;
 sub I by I.sc;
+sub IJ by ij.sc;
 sub Iacute by iacute.sc;
 sub Icircumflex by icircumflex.sc;
 sub Idieresis by idieresis.sc;
 sub Igrave by igrave.sc;
 sub Imacron by imacron.sc;
-sub IJ by ij.sc;
 sub J by J.sc;
 sub K by K.sc;
 sub L by L.sc;
@@ -702,10 +703,6 @@ pos = -300;
 }
 );
 name = Ligth;
-stemValues = (
-17,
-61
-);
 userData = {
 GSSlanterCursivy = 0;
 GSSlanterCursivyContrastFactor = 0.5;
@@ -794,10 +791,6 @@ pos = -300;
 }
 );
 name = Medium;
-stemValues = (
-17,
-61
-);
 },
 {
 axesValues = (
@@ -876,10 +869,6 @@ pos = -300;
 }
 );
 name = Bold;
-stemValues = (
-17,
-61
-);
 }
 );
 glyphs = (
@@ -66272,37 +66261,17 @@ axesValues = (
 customParameters = (
 {
 name = PreFilter;
+value = Decompose;
+},
+{
+name = PreFilter;
 value = RemoveOverlap;
 }
 );
 instanceInterpolations = {
 "E059459B-5795-442B-8710-0018C46129BA" = 1;
 };
-name = Light;
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextLight;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Light";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
+name = Ligth;
 weightClass = 300;
 },
 {
@@ -66312,44 +66281,27 @@ axesValues = (
 customParameters = (
 {
 name = PreFilter;
+value = Decompose;
+},
+{
+name = PreFilter;
 value = RemoveOverlap;
 }
 );
 instanceInterpolations = {
-"261B483D-14CB-4AC5-AE3A-41E540C8643C" = 0.5;
-"E059459B-5795-442B-8710-0018C46129BA" = 0.5;
+"261B483D-14CB-4AC5-AE3A-41E540C8643C" = 1;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextRegular;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Regular";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 },
 {
 axesValues = (
 500
 );
 customParameters = (
+{
+name = PreFilter;
+value = Decompose;
+},
 {
 name = PreFilter;
 value = RemoveOverlap;
@@ -66359,30 +66311,6 @@ instanceInterpolations = {
 "261B483D-14CB-4AC5-AE3A-41E540C8643C" = 1;
 };
 name = Medium;
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextMedium;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Medium";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 weightClass = 500;
 },
 {
@@ -66392,38 +66320,17 @@ axesValues = (
 customParameters = (
 {
 name = PreFilter;
+value = Decompose;
+},
+{
+name = PreFilter;
 value = RemoveOverlap;
 }
 );
 instanceInterpolations = {
-"261B483D-14CB-4AC5-AE3A-41E540C8643C" = 0.5;
-"8EEC74F5-9CFA-47B4-A8F8-9A6461F2D63F" = 0.5;
+"8EEC74F5-9CFA-47B4-A8F8-9A6461F2D63F" = 1;
 };
-name = Semibold;
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextSemibold;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Semibold";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
+name = SemiBold;
 weightClass = 600;
 },
 {
@@ -66431,6 +66338,10 @@ axesValues = (
 700
 );
 customParameters = (
+{
+name = PreFilter;
+value = Decompose;
+},
 {
 name = PreFilter;
 value = RemoveOverlap;
@@ -66441,30 +66352,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextBold;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Bold";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 weightClass = 700;
 },
 {
@@ -66482,7 +66369,7 @@ value = RemoveOverlap;
 },
 {
 name = Filter;
-value = "Transformations;Slant:10;SlantCorrection:0;Origin:0;";
+value = "Transformations;Slant:11;SlantCorrection:0;Origin:2;";
 },
 {
 name = "Rename Glyphs";
@@ -66498,31 +66385,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Light;
-name = "Light Italic";
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextLightItalic;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Light Italic";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
+name = "Ligth Italic";
 weightClass = 300;
 },
 {
@@ -66539,16 +66402,16 @@ name = PreFilter;
 value = RemoveOverlap;
 },
 {
+name = Filter;
+value = "Transformations;Slant:11;SlantCorrection:0;Origin:2;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "a=a.001",
 "f=f.001",
 "g=g.001"
 );
-},
-{
-name = Filter;
-value = "Transformations;Slant:10;SlantCorrection:0;Origin:0;";
 }
 );
 instanceInterpolations = {
@@ -66558,30 +66421,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Regular;
 name = "Regular Italic";
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextRegularItalic;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Regular Italic";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 },
 {
 axesValues = (
@@ -66597,16 +66436,16 @@ name = PreFilter;
 value = RemoveOverlap;
 },
 {
+name = Filter;
+value = "Transformations;Slant:11;SlantCorrection:0;Origin:2;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "a=a.001",
 "f=f.001",
 "g=g.001"
 );
-},
-{
-name = Filter;
-value = "Transformations;Slant:10;SlantCorrection:0;Origin:0;";
 }
 );
 instanceInterpolations = {
@@ -66615,30 +66454,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextMediumItalic;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Medium Italic";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 weightClass = 500;
 },
 {
@@ -66655,16 +66470,16 @@ name = PreFilter;
 value = RemoveOverlap;
 },
 {
+name = Filter;
+value = "Transformations;Slant:11;SlantCorrection:0;Origin:2;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "a=a.001",
 "f=f.001",
 "g=g.001"
 );
-},
-{
-name = Filter;
-value = "Transformations;Slant:10;SlantCorrection:0;Origin:0;";
 }
 );
 instanceInterpolations = {
@@ -66672,32 +66487,8 @@ instanceInterpolations = {
 "8EEC74F5-9CFA-47B4-A8F8-9A6461F2D63F" = 0.5;
 };
 isItalic = 1;
-linkStyle = Semibold;
-name = "Semibold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextSemiboldItalic;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Semibold Italic";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -66714,16 +66505,16 @@ name = PreFilter;
 value = RemoveOverlap;
 },
 {
+name = Filter;
+value = "Transformations;Slant:11;SlantCorrection:0;Origin:2;";
+},
+{
 name = "Rename Glyphs";
 value = (
 "a=a.001",
 "f=f.001",
 "g=g.001"
 );
-},
-{
-name = Filter;
-value = "Transformations;Slant:10;SlantCorrection:0;Origin:0;";
 }
 );
 instanceInterpolations = {
@@ -66733,30 +66524,6 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Bold;
 name = "Bold Italic";
-properties = (
-{
-key = postscriptFontName;
-value = LEDSTextBoldItalic;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = ENG;
-value = "LEDSText Bold Italic";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-}
-);
 weightClass = 700;
 }
 );
@@ -66985,19 +66752,6 @@ value = "LEM UASLP";
 );
 },
 {
-key = postscriptFontName;
-value = LEDS_Text;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = dflt;
-value = "LEDS Text";
-}
-);
-},
-{
 key = versionString;
 value = "Version %d.%03d";
 }
@@ -67005,15 +66759,6 @@ value = "Version %d.%03d";
 settings = {
 disablesNiceNames = 1;
 };
-stems = (
-{
-horizontal = 1;
-name = "Stem 1";
-},
-{
-name = "Stem 2";
-}
-);
 unitsPerEm = 1024;
 userData = {
 com.eweracs.HTLSManager.fontRules = {
