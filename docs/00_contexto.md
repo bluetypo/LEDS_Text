@@ -18,13 +18,13 @@ El desarrollo técnico y la estructuración tipográfica de esta familia han con
 El Laboratorio de Estructuras Sociales (LEDS - UASLP) es una entidad académica enfocada en el análisis, experimentación y visualización de fenómenos y estructuras sociales.
 Sitio web oficial: [https://leds.uaslp.mx](https://leds.uaslp.mx)
 
-## 5. Especificaciones del Set de Glifos (Charset)
-LEDS Text cuenta actualmente con un set de **380 glifos** por fuente en su versión v1.1.0. Esto garantiza:
+## 5. Especificaciones de la Familia y Set de Glifos (Charset)
+LEDS Text se compone de **10 estilos** (5 pesos en variantes Romana e Itálica con 10° de inclinación y variantes cursivas) con un set de **380 glifos** por fuente en su versión v1.3.0. Esto garantiza:
 - Cobertura completa (100%) para 16 idiomas de base latina (incluyendo Checo, Finlandés, Galés, Irlandés y Español) y cobertura extendida para 153 idiomas.
-- Implementación de diacríticos y formas contextuales.
+- Implementación de diacríticos, formas contextuales y variantes morfológicas cursivas (`/a`, `/f`, `/g`).
 - Funciones OpenType avanzadas (`aalt`, `case`, `ccmp`, `liga`, `locl`) que resuelven dinámicamente composiciones complejas de texto.
 
 ## 6. Objetivos del Repositorio
 Este espacio en GitHub gestiona el control de calidad mediante:
 1. **Validación de Métricas y QA:** Auditorías periódicas con herramientas de diagnóstico tipográfico (*Fontbakery*).
-2. **Distribución de Producción:** Publicación estructurada de instancias estáticas (OTF) y paquetes comprimidos de release listos para uso final.
+2. **Distribución de Producción:** Publicación estructurada de instancias estáticas individuales (OTF y WOFF) y paquetes comprimidos de release listos para uso final.

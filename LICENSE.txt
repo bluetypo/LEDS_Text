@@ -3,8 +3,8 @@ Copyright (c) 2026, Laboratorio de Estructuras Sociales - UASLP (https://leds.ua
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: http://scripts.sil.org/OFL
 
-Versión: 1.0
-Fecha: 2026-03-02
+Versión: 1.3
+Fecha: 2026-08-29
 
 1. DEFINICIONES
 “Tipografía” se refiere al software de fuente y archivos asociados denominados “LEDS_Text”

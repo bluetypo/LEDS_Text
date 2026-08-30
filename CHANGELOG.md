@@ -4,6 +4,43 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
+## [1.3.0] - 2026-08-29
+### Added
+- **Expansión de la Familia con Estilos Itálicos (5 Cursivas):** Diseño, transformación y exportación de 5 estilos itálicos en formatos OTF (`builds/otf/proof/`) y WOFF (`builds/woff/proof/`):
+  - `LEDSTextLightItalic.otf` / `LEDSTextLightItalic.woff`
+  - `LEDSTextRegularItalic.otf` / `LEDSTextRegularItalic.woff`
+  - `LEDSTextMediumItalic.otf` / `LEDSTextMediumItalic.woff`
+  - `LEDSTextSemiboldItalic.otf` / `LEDSTextSemiboldItalic.woff`
+  - `LEDSTextBoldItalic.otf` / `LEDSTextBoldItalic.woff`
+- **Paquete de Release Unificado:** Distribución oficial consolidada con los 10 estilos en formatos OTF y WOFF en `builds/release/LEDS_Text_v1.30.zip`.
+- **Diseño y Transformación Cursiva:**
+  - Ángulo de inclinación de 10° (`Slant: 10°`).
+  - Descomposición y remoción de superposiciones en exportación (*Decompose & Remove Overlap*).
+  - Variantes morfológicas cursivas para minúsculas: sustitución de glifos en exportación para `/a` (`a.001`), `/f` (`f.001`) y `/g` (`g.001`).
+- **Vinculación de Estilos (*Style Linking*):**
+  - Configuración completa de la cuádrupla base: `Regular` $\rightarrow$ `Bold` (**B**), `Regular` $\rightarrow$ `Regular Italic` (**I**), `Regular` $\rightarrow$ `Bold Italic` (**B+I**).
+  - Vinculación de pares itálicos para `Light` $\leftrightarrow$ `Light Italic`, `Medium` $\leftrightarrow$ `Medium Italic` y `Semibold` $\leftrightarrow$ `Semibold Italic`.
+- **Actualización de Versión de Metadatos:** Incremento a `v1.300` (`versionMajor = 1`, `versionMinor = 3`) en el archivo fuente de Glyphs.
+
+### Changed / Optimized
+- **Recompilación de la Familia Completa:** Generación sincronizada de los 10 estilos estáticos (5 Romanas + 5 Itálicas) en formatos OTF y WOFF.
+
+### Font Metrics Summary
+**Family Name:** "LEDS Text"
+- **Units Per Em (UPM):** 1024
+- **Number of Glyphs:** 380
+- **Version:** 1.300; Glyphs 3.x
+- **Italic Slant:** 10.0°
+
+#### Styles Overview (10 Estilos)
+- **Light (300) / Light Italic (300 Italic)**
+- **Regular (400) / Regular Italic (400 Italic)**
+- **Medium (500) / Medium Italic (500 Italic)**
+- **Semibold (600) / Semibold Italic (600 Italic)**
+- **Bold (700) / Bold Italic (700 Italic)**
+
+---
+
 ## [1.2.0] - 2026-08-29
 ### Added
 - **Compilación de Fuentes Web (WOFF):** Generación e incorporación de archivos en formato `.woff` para los 5 pesos en `builds/woff/proof/`:
