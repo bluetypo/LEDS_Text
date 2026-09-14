@@ -4,6 +4,38 @@ Todos los cambios relevantes del proyecto se documentan en este archivo.
 
 ---
 
+## [1.3.1] - 2026-09-14
+### Added
+- **Expansión del Set de Caracteres (380 $\rightarrow$ 530 glifos):** Incorporación de 150 nuevos glifos y símbolos en el archivo fuente [`sources/LEDS_Text.glyphs`](sources/LEDS_Text.glyphs):
+  - **Letras con Diacríticos Extendidos:** `/Aogonek`, `/Eogonek`, `/IJ`, `/Tcedilla`, `/Uogonek`, `/aogonek`, `/eogonek`, `/tcedilla`, `/uogonek`, `/x.sc`.
+  - **Figuras Estilo Antiguo (*Oldstyle Figures* - OSF):** `/zero.osf` a `/nine.osf`.
+  - **Denominadores y Fracciones:** `/two.dnom`, `/four.dnom`, `/six.dnom`, `/nine.dnom`, `/fraction`, `/onefraction`, `/onehalf`, `/zerothird`, `/onethird`, `/twothirds`, `/onequarter`, `/threequarters`, `/onefifth` a `/fourfifths`, `/onesixth`, `/fivesixths`, `/oneseventh`, `/oneeighth` a `/seveneighths`, `/oneninth`, `/onetenth`.
+  - **Subíndices y Superíndices (*Inferiors & Superiors*):** `/zeroinferior` a `/nineinferior` y `/zerosuperior` a `/ninesuperior`.
+  - **Espacios Tipográficos y Anchos Fijos:** `/nbspace`, `/enspace`, `/emspace`, `/enquad`, `/emquad`, `/threeperemspace`, `/fourperemspace`, `/sixperemspace`, `/figurespace`, `/punctuationspace`, `/thinspace`, `/hairspace`, `/zerowidthspace`, `/narrownbspace`, `/mediumspace-math`, `/space-han`.
+  - **Puntuación y Símbolos Adicionales:** `/ellipsis`, `/periodcentered`, `/bullet`, `/endash`, `/emdash`, `/braceleft`, `/braceright`, `/quotesinglbase`, `/quotedblbase`, `/guillemetleft`, `/guillemetright`, `/guilsinglleft`, `/guilsinglright`, `/florin`, `/minus`.
+  - **Diacríticos Flotantes y de Combinación:** `/ogonekcomb`, `/dieresis`, `/dotaccent`, `/grave`, `/acute`, `/hungarumlaut`, `/circumflex`, `/caron`, `/breve`, `/ring`, `/tilde`, `/macron`, `/cedilla`, `/ogonek`.
+- **Archivo de Pruebas Tipográficas:** Incorporación de documento de pruebas para InDesign en [`tests/LEDS_Light_Font_Testing.indd`](tests/LEDS_Light_Font_Testing.indd).
+
+### Changed / Optimized
+- **Reexportación de Binarios:** Compilación y actualización de los 10 estilos en formatos OTF (`builds/otf/proof/`) y WOFF (`builds/woff/proof/`) integrando el nuevo set de 530 glifos.
+- **Limpieza de Binarios Obsoletos:** Eliminación de binarios heredados de prueba (`LEMPro*`) en `builds/otf/proof/`.
+
+### Font Metrics Summary
+**Family Name:** "LEDS Text"
+- **Units Per Em (UPM):** 1024
+- **Number of Glyphs:** 530
+- **Version:** 1.300; Glyphs 3.x
+- **Italic Slant:** 10.0°
+
+#### Styles Overview (10 Estilos)
+- **Light (300) / Light Italic (300 Italic)**
+- **Regular (400) / Regular Italic (400 Italic)**
+- **Medium (500) / Medium Italic (500 Italic)**
+- **Semibold (600) / Semibold Italic (600 Italic)**
+- **Bold (700) / Bold Italic (700 Italic)**
+
+---
+
 ## [1.3.0] - 2026-08-30
 ### Added
 - **Expansión de la Familia con Estilos Itálicos (5 Cursivas):** Diseño, transformación y exportación de 5 estilos itálicos en formatos OTF (`builds/otf/proof/`) y WOFF (`builds/woff/proof/`):
