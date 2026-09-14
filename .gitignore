@@ -44,3 +44,7 @@ archive/
 
 # Local internal guides
 workflow_interno.md
+
+# Build / release packaging scripts
+builds/*.sh
+
