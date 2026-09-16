@@ -2,7 +2,7 @@
 
 ![LEDS Text Specimen](assets/LEDS_Text.png)
 
-**LEDS Text** es la familia tipográfica oficial del **Laboratorio de Estructuras Sociales (LEDS)**, perteneciente a la Facultad del Hábitat de la Universidad Autónoma de San Luis Potosí (UASLP).
+**LEDS Text** es la familia tipográfica oficial del [**Laboratorio de Estructuras Sociales (LEDS)**](https://leds.uaslp.mx), perteneciente a la Facultad del Hábitat de la Universidad Autónoma de San Luis Potosí (UASLP).
 
 Este repositorio aloja el archivo fuente de diseño y las compilaciones de producción de la familia, estructurados bajo estándares profesionales de desarrollo tipográfico y control de versiones.
 
